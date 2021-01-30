@@ -1,0 +1,992 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;900&display=swap');
+
+
+
+*{
+    box-sizing: border-box;
+    margin    : 0;
+    padding   : 0;
+    }
+body {
+    font-family: Montserrat, sans-serif;
+}
+
+.face{
+height    : 757.51px;
+width     : 1920.09px;
+background: url("bg/cover.png") center center/cover no-repeat;
+}
+.logo{
+position   : absolute;
+margin-top : 57px;
+margin-left: 307px;
+}
+.navigation .phone{
+position   : absolute;
+margin-top : 77px;
+margin-left: 710px;
+font-family: Montserrat;
+font-size  : 24px;
+font-style : normal;
+font-weight: 600;
+color      : #333333;
+}
+
+.navigation .main {
+position   : absolute;
+font-family: Montserrat;
+font-size  : 18px;
+font-style : normal;
+font-weight: 600;
+color      : #333333;
+}
+.navigation .main .price {
+position     : absolute;
+font-size    : 18px;
+margin-top   : 80px ;
+margin-left  : 1169px ;
+margin-right : 698.11px;
+margin-bottom: 659.55px ;
+}
+.navigation .main .us {
+position     : absolute;
+margin-top   : 80px ;
+font-size    : 18px;
+margin-left  : 1276px ;
+margin-right : 590.11px;
+margin-bottom: 659.55px ;
+overflow     : hidden;
+white-space  : nowrap;
+}
+
+.navigation .main .clients {
+position     : absolute;
+font-size    : 18px;
+margin-top   : 80px ;
+margin-left  : 1384px ;
+margin-right : 452.11px ;
+margin-bottom: 659.55px ;
+}
+.navigation .main .contacts {
+position     : absolute;
+font-size    : 18px;
+margin-top   : 80px;
+margin-left  : 1522px ;
+margin-right : 308.11px;
+margin-bottom: 659.55px ;
+}
+.car_ring {
+position: absolute;
+}
+.car_ring .car{
+position: absolute;
+margin  : 119.97px 312.56px 151.42px 876.65px;
+}
+ .ellipse_one {
+position    : absolute;
+margin-top  : 522px;
+margin-right: 312.11px;
+margin-left : 1508px;
+}
+ .ellipse_two {
+position    : absolute;
+margin-top  : 504px;
+margin-right: 294.11px;
+margin-left : 1490px;
+}
+ .vector {
+position    : absolute;
+margin-top  : 546px;
+margin-right: 335.21px;
+margin-left : 1532px;
+}
+.phone {
+position    : absolute;
+margin-top  : 546px;
+margin-right: 335.21px;
+margin-left : 1532px;
+cursor      : pointer;
+}
+h1 {
+position    : absolute;
+display     : inline-block;
+margin-top  : 248.13px;
+text-align  : left;
+margin-right: 1205.11px;
+margin-left : 304px;
+font-family : Montserrat;
+font-style  : normal;
+font-weight : 900;
+font-size   : 70px;
+line-height : 98.44%;
+/* or 69px */
+white-space   : pre;
+letter-spacing: 0.035em;
+font-variant  : small-caps;
+color         : #333333;
+white-space: pre;
+}
+
+.delivery{
+position    : absolute;
+display     : inline-block;
+text-align  : left;
+margin-top  : 207px;
+margin-right: 1402.11px;
+margin-left : 307px;
+font-family : Montserrat;
+font-style  : normal;
+font-weight : 500;
+font-size   : 30px;
+/* or 30px */
+color: #333333;
+}
+.test{
+position    : absolute;
+display     : inline-block;
+text-align  : left;
+margin-top  : 398px;
+margin-right: 1126.11px;
+margin-left : 305px;
+font-family : Montserrat;
+font-style  : normal;
+font-weight : 500;
+font-size   : 24px;
+line-height : 109.44%;
+/* or 26px */
+color: #333333;
+white-space: nowrap;
+}
+.to_write {
+display      : inline-block;
+margin       : 0 auto;
+position     : absolute;
+width        : 312px;
+height       : 64px;
+margin-top   : 484px;
+margin-right : 1301px;
+margin-left  : 307px;
+background   : #3D9BE9;
+border-radius: 3px;
+
+
+cursor     : pointer;
+font-family: Montserrat;
+font-style : normal;
+font-weight: bold;
+font-size  : 20px;
+/* or 21px */
+letter-spacing: 0.02em;
+color         : #FFFFFF;
+}
+
+#rectangle_1 {
+position     : absolute;
+width        : 412px;
+height       : 284.53px;
+left         : 310px;
+top          : 651.32px;
+background   : #FEFEFE;
+border-radius: 6px;
+}
+.bloks .blok_1 .zeroone {
+position   : absolute;
+width      : 113px;
+height     : 89px;
+left       : 459px;
+top        : 693px;
+font-family: Montserrat;
+font-style : normal;
+font-weight: 900;
+font-size  : 96px;
+text-align : center;
+color      : #EFF5F8;
+}
+.bloks .blok_1 .mark {
+position   : absolute;
+width      : 190px;
+height     : 24px;
+left       : 421px;
+top        : 802px;
+font-family: Montserrat;
+font-style : normal;
+font-weight: 600;
+font-size  : 22px;
+text-align : center;
+color      : #333333;
+}
+.bloks .blok_1 .help {
+position   : absolute;
+width      : 204px;
+height     : 39px;
+left       : 414px;
+top        : 846px;
+font-family: Montserrat;
+font-style : normal;
+font-weight: normal;
+font-size  : 16px;
+line-height: 140%;
+text-align : center;
+color      : #333333;
+}
+
+#rectangle_2 {
+position     : absolute;
+width        : 415px;
+height       : 286.06px;
+left         : 753px;
+top          : 651.94px;
+background   : #FEFEFE;
+border-radius: 6px;
+}
+.bloks .blok_2 .zerotwo {
+position   : absolute;
+width      : 146px;
+height     : 89px;
+left       : 887px;
+top        : 693px;
+font-family: Montserrat;
+font-style : normal;
+font-weight: 900;
+font-size  : 96px;
+color      : rgba(225, 236, 242, 0.5);
+}
+.bloks .blok_2 .technic {
+position   : absolute;
+width      : 224px;
+height     : 27px;
+left       : 848px;
+top        : 802px;
+font-family: Montserrat;
+font-style : normal;
+font-weight: 600;
+font-size  : 22px;
+text-align : center;
+color      : #333333;
+}
+        
+.bloks .blok_2 .beto{
+position   : absolute;
+width      : 238px;
+height     : 44px;
+left       : 842px;
+top        : 846px;
+font-family: Montserrat;
+font-style : normal;
+font-weight: normal;
+font-size  : 16px;
+line-height: 140%;
+text-align : center;
+color      : #333333;
+}
+
+
+#rectangle {
+position     : absolute;
+width        : 410px;
+height       : 282.61px;
+left         : 1198px;
+top          : 655.05px;
+background   : #FEFEFE;
+border-radius: 6px;
+}
+.bloks .blok_3 .zerothree {
+position     : absolute;
+width        : 130px;
+height       : 89px;
+left         : 1338px;
+top          : 691px;
+font-family  : Montserrat;
+font-style   : normal;
+font-weight  : 900;
+font-size    : 96px;
+text-align   : center;
+color        : #EFF5F8;
+border-radius: 16px;
+}
+.bloks .blok_3 .adress {
+position     : absolute;
+width        : 199px;
+height       : 26px;
+left         : 1304px;
+top          : 800px;
+font-family  : Montserrat;
+font-style   : normal;
+font-weight  : 600;
+font-size    : 22px;
+text-align   : center;
+color        : #333333;
+border-radius: 16px;
+}
+.bloks .blok_3 .pricee{
+position     : absolute;
+width        : 218px;
+height       : 39px;
+left         : 1294px;
+top          : 846px;
+font-family  : Montserrat;
+font-style   : normal;
+font-weight  : normal;
+font-size    : 16px;
+line-height  : 140%;
+text-align   : center;
+color        : #333333;
+border-radius: 16px;
+}
+
+
+.advantage_header {
+position     : absolute;
+width        : 341px;
+height       : 34px;
+left         : 791px;
+top          : 1080px;
+font-style   : normal;
+font-weight  : 600;
+font-size    : 30px;
+color        : #333333;
+margin-bottom: 56px;
+}
+.box {
+position        : absolute;
+width           : 1920px;
+height          : 742px;
+left            : 1px;
+top             : 1170px;
+background-image: url(bg/forest.png);
+}
+.box .nad {
+position     : absolute;
+margin-top   : 129px ;
+margin-right : 1332px;
+margin-bottom: 591px ;
+margin-left  : 442px;
+}
+.box .advantage_header1 {
+font-style : normal;
+font-weight: 600;
+font-size  : 22px;
+text-align : center;
+color      : #333333;
+}
+.box .resh {
+position     : absolute;
+margin-top   : 166px ;
+margin-right : 1277px;
+margin-bottom: 532px ;
+margin-left  : 388px;
+}
+.box .advantage_text1{
+font-style : normal;
+font-weight: normal;
+font-size  : 16px;
+line-height: 140%;
+/* or 22px */
+text-align: center;
+color     : #333333;
+}
+.box .sob {
+position     : absolute;
+margin-top   : 129px ;
+margin-right : 824px;
+margin-bottom: 591px ;
+margin-left  : 821px;
+}
+.box .advantage_header2 {
+font-style : normal;
+font-weight: 600;
+font-size  : 22px;
+text-align : center;
+color      : #333333;
+}
+.box .bet {
+position     : absolute;
+margin-top   : 166px ;
+margin-right : 807px;
+margin-bottom: 532px ;
+margin-left  : 804px;
+}
+.box .advantage_text2 {
+font-style : normal;
+font-weight: normal;
+font-size  : 16px;
+line-height: 140%;
+text-align : center;
+color      : #333333;
+}
+.box .norm {
+position     : absolute;
+margin-top   : 129px ;
+margin-right : 356px;
+margin-bottom: 591px ;
+margin-left  : 1260px;
+}
+.box .advantage_header3 {
+font-style : normal;
+font-weight: 600;
+font-size  : 22px;
+text-align : center;
+color      : #333333;
+}
+.box .sert {
+position     : absolute;
+margin-top   : 169px ;
+margin-right : 373 px;
+margin-bottom: 529px ;
+margin-left  : 1260px;
+}
+.box .advantage_text3 {
+font-style : normal;
+font-weight: normal;
+font-size  : 16px;
+line-height: 140%;
+text-align : center;
+color      : #333333;
+}
+.pricee {
+width      : 90px;
+position   : absolute;
+height     : 30px;
+left       : 915px;
+top        : 1992px;
+font-family: Montserrat;
+font-style : normal;
+font-weight: 600;
+font-size  : 30px;
+color      : #333333;
+}
+.solution {
+position   : absolute;
+width      : 96px;
+height     : 22px;
+left       : 464px;
+top        : 2092px;
+font-family: Montserrat;
+font-style : normal;
+font-weight: 600;
+font-size  : 22px;
+line-height: 98.44%;
+color      : #333333;
+transform  : rotate(0.21deg);
+}
+.metr {
+position   : absolute;
+width      : 93px;
+height     : 16px;
+left       : 466px;
+top        : 2132.02px;
+font-family: Montserrat;
+font-style : normal;
+font-weight: normal;
+font-size  : 16px;
+line-height: 98.44%;
+
+color    : #333333;
+transform: rotate(0.21deg);
+transform: rotate(0.21deg);
+
+
+overflow   : hidden;
+white-space: nowrap;
+}
+
+.table1 {
+position   : absolute;
+width      : 164px;
+height     : 24px;
+left       : 428px;
+top        : 2195.93px;
+font-style : normal;
+font-weight: 500;
+font-size  : 20px;
+line-height: 120%;
+color      : #333333;
+transform  : rotate(0.21deg);
+
+
+}
+td {
+border-bottom : 1px solid rgba(51, 51, 51, 0.1);
+padding-top   : 40.34px;
+padding-bottom: 5.33px;
+}
+.beton {
+position   : absolute;
+width      : 70px;
+height     : 22px;
+left       : 803px;
+top        : 2092.21px;
+font-style : normal;
+font-weight: 600;
+font-size  : 22px;
+line-height: 98.44%;
+color      : #333333;
+transform  : rotate(0.21deg);
+}
+.metr2 {
+position   : absolute;
+width      : 93px;
+height     : 16px;
+left       : 792px;
+top        : 2132.23px;
+font-family: Montserrat;
+font-style : normal;
+font-weight: normal;
+font-size  : 16px;
+line-height: 98.44%;
+color      : #333333;
+transform  : rotate(0.21deg);
+overflow   : hidden;
+white-space: nowrap;
+}
+.table2 {
+position   : absolute;
+width      : 164px;
+height     : 20px;
+left       : 758px;
+top        : 2197.14px;
+font-family: Montserrat;
+font-style : normal;
+font-weight: 500;
+font-size  : 20px;
+line-height: 98.44%;
+color      : #333333;
+transform  : rotate(0.21deg);
+}
+.destination {
+position   : absolute;
+width      : 338px;
+height     : 22px;
+left       : 1003.11px;
+top        : 2092px;font-family: Montserrat;
+font-style : normal;
+font-weight: 600;
+font-size  : 22px;
+line-height: 98.44%;
+color      : #333333;
+transform  : rotate(0.21deg);
+}
+.auto_delivery {
+position   : absolute;
+width      : 573px;
+height     : 66px;
+left       : 1004px;
+top        : 2125px;
+font-family: Montserrat;
+font-style : normal;
+font-weight: normal;
+font-size  : 16px;
+line-height: 139.5%;
+color      : #333333;
+}
+.services {
+position      : absolute;
+width         : 352px;
+height        : 22px;
+left          : 1004.11px;
+top           : 2228px;
+font-family   : Montserrat;
+font-style    : normal;
+font-weight   : 600;
+font-size     : 22px;
+line-height   : 98.44%;
+text-transform: capitalize;
+color         : #333333;
+transform     : rotate(0.21deg);
+}
+.price_delivery {
+position   : absolute;
+width      : 422px;
+height     : 44px;left: 1004px;
+top        : 2261px;
+font-family: Montserrat;
+font-style : normal;
+font-weight: normal;
+font-size  : 16px;
+line-height: 140%;
+color      : #333333;
+}
+.nasos {
+position   : absolute;
+width      : 257px;
+height     : 22px;
+left       : 1005.11px;
+top        : 2343px;
+font-family: Montserrat;
+font-style : normal;
+font-weight: 600;
+font-size  : 22px;
+line-height: 98.44%;
+color      : #333333;
+transform  : rotate(0.21deg);
+}
+.price_nasos {
+position   : absolute;
+width      : 523px;
+height     : 44px;
+left       : 1004px;
+top        : 2375px;
+font-family: Montserrat;
+font-style : normal;
+font-weight: normal;
+font-size  : 16px;
+line-height: 140.5%;
+color      : #333333;
+}
+.payment {
+position   : absolute;
+width      : 524px;
+height     : 44px;
+left       : 1004px;
+top        : 2457px;
+font-family: Montserrat;
+font-style : normal;
+font-weight: normal;
+font-size  : 16px;
+line-height: 140%;
+    /* or 22px */
+color: #333333;
+}
+.mobile {
+position   : absolute;
+width      : 220px;
+height     : 24px;
+left       : 1004px;
+top        : 2542px;
+font-family: Montserrat;
+font-style : normal;
+font-weight: 600;
+font-size  : 24px;
+line-height: 98.44%;
+    /* identical to box height, or 24px */
+color: rgba(51, 51, 51, 0.8);
+}
+.download {
+ position   : absolute;
+ width      : 165px;
+ height     : 21px;
+ left       : 1081px;
+ top        : 2644px;
+ font-family: Montserrat;
+ font-style : normal;
+ font-weight: 500;
+ font-size  : 16px;
+ line-height: 131%;
+ color      : #333333;
+}
+
+.list {
+position: absolute;
+top     : 2610px;
+right   : 858.13px;
+bottom  : 3755px;
+left    : 1006.13px;
+
+}
+.list .paper {
+width : 55, 73px;
+height: 82px;
+}
+.work {
+    position   : absolute;
+    width      : 260px;
+    height     : 37px;
+    left       : 815px;
+    top        : 2988px;
+    font-family: Montserrat;
+    font-style : normal;
+    font-weight: 600;
+    font-size  : 30px;
+    line-height: 37px;
+    color      : #333333;
+}
+
+
+.pensil {
+    position  : absolute;
+    width     : 747px;
+    top       : 3115px;
+    right     : 348px;
+    left      : 825px;
+    background: linear-gradient(90deg, #FFFFFF 12.65%, rgba(255, 255, 255, 0) 31.06%);
+    z-index   : -1;
+    }
+.olist {
+    width          : 367px;
+    list-style-type: decimal-leading-zero;
+    position       : absolute;
+    right          : 1073.94px;
+    left           : 459.06px;
+    top            : 3115px;
+}
+li {
+margin-bottom: 40px;
+padding-left : 19.06px;
+font-style   : normal;
+font-weight  : normal;
+font-size    : 16px;
+line-height  : 139.5%;
+/* or 22px */
+color         : #333333;
+text-transform: rotate(0.21deg);
+}
+
+.order_now {
+position        : absolute;
+width           : 1920px;
+background-color: #F8F8F8;
+height          : 771px;
+top             : 3804px;
+}
+.right-now {
+margin-top  : 105px;
+margin-right: 796px;
+margin-left : 764px;
+font-family : Montserrat;
+font-style  : normal;
+font-weight : 600;
+font-size   : 30px;
+color       : #333333;
+}
+.minut {
+margin-top  : 10px;
+margin-right: 824px;
+margin-left : 793px;
+font-family : Montserrat;
+font-style  : normal;
+font-weight : normal;
+font-size   : 16px;
+color       : #333333;
+}
+.layer {
+position: relative;
+}
+
+.img_cap {
+position   : absolute;
+margin-left: 282px;
+margin-top : 39px;
+}
+.img_builder {
+position     : relative;
+margin-top   : 71px;
+margin-left  : 586px;
+margin-bottom: 4px;
+}
+
+
+
+.mainform {
+padding: 260px 600px 181px 1003px;
+
+/*margin-left: 61px;
+margin-top   : 160px;
+margin-right : 667px;
+margin-bottom: 181px;*/
+position     : relative;
+top          : -750px;
+}
+
+
+input {
+    outline: none;
+    border : none;
+}
+
+.mainform .yourname {
+border-bottom: 1px solid #333333;
+}
+.mainform  .telefon  {
+border-bottom: 1px solid #333333;
+}
+ .input12 {
+font-family     : Montserrat;
+font-style      : normal;
+font-weight     : normal;
+font-size       : 16px;
+line-height     : 20px;
+color           : rgba(51, 51, 51, 0.7);
+padding-bottom  : 14px;
+padding-top     : 34px;
+padding-left    : 3px;
+background-color: #F8F8F8;
+}
+.call_me .button2 {
+background-color: #3D9BE9;
+color           : #FDFDFD;
+width           : 320px;
+height          : 50px;
+border-radius   : 3px;
+padding         : 13px 31px 13px 31px;
+margin-top      : 69px;
+margin-bottom   : 13px;
+font-family     : Montserrat;
+font-style      : normal;
+font-weight     : 500;
+font-size       : 20px;
+cursor          : pointer;
+}
+
+.personal {
+
+font-family: Montserrat;
+font-style : normal;
+font-weight: normal;
+font-size  : 12px;
+
+text-align    : center;
+letter-spacing: 0.015em;
+color         : #333333;
+padding       : 0px;
+text-align    : justify;;
+}
+.telefon {
+   margin-bottom: 19px;
+}
+
+.clients2 {
+    position        : absolute;
+    width           : 1920px;
+    background-color: #FFFFFF;
+    height          : 831px;
+    top             : 4673px;
+    }
+
+    .ourclients {
+      margin-top  : 56px;
+      margin-right: 854px;
+      margin-left : 855px;
+      font-family : Montserrat;
+      font-style  : normal;
+      font-weight : 600;
+      font-size   : 30px;
+      color       : #333333;
+    }
+    .first_three {
+    display        : flex;
+    justify-content: space-between;
+    margin-top     : 90px;
+    margin-right   : 305px;
+    margin-left    : 307px;
+
+    }
+
+    .second_three {
+    display        : flex;
+    justify-content: space-between;
+    margin-right   : 287px;
+    margin-left    : 325px;
+    margin-top     : 105px;
+    }
+
+.box_footer {
+    position        : absolute;
+    width           : 1920px;
+    background-color: #333333;
+    height          : 354px;
+    left            : 0px;
+    top             : 5503px;
+}
+
+.confidens {
+position     : absolute;
+margin-top   : 60px ;
+margin-left  : 400px;
+margin-bottom: 104px ;
+}
+
+.our_logo {
+margin-bottom: 35px;
+}
+
+.politics {
+margin-bottom: 21px;
+font-style   : normal;
+font-weight  : normal;
+font-size    : 16px;
+line-height  : 140.9%;
+color        : #FFFFFF;
+}
+
+.agreement1 {
+font-family: Montserrat;
+font-style : normal;
+font-weight: normal;
+font-size  : 16px;
+line-height: 22px;
+color      : #FFFFFF;
+}
+
+.navigation_site {
+    position     : absolute;
+    margin-left  : 741px;
+    margin-top   : 108px ;
+    margin-bottom: 135px;
+    margin-right : 1104px;
+    
+}
+.networks {
+    position     : absolute;
+    margin-left  : 1002px;
+    margin-top   : 108px ;
+    margin-bottom: 135px;
+    margin-right : 826px;
+}
+.coordinats {
+    position     : absolute;
+    margin-left  : 1280px;
+    margin-top   : 103px ;
+    margin-bottom: 85px;
+    margin-right : 390px;
+}
+.same {
+    padding-bottom: 13px;
+    font-family   : Montserrat;
+    font-style    : normal;
+    font-weight   : 500;
+    font-size     : 18px;
+    color         : #FFFFFF;
+}
+.button_end {
+background-color: #3D9BE9;
+
+width        : 250px;
+height       : 50px;
+border-radius: 3px;
+font-family  : Montserrat;
+font-style   : normal;
+font-weight  : 500;
+font-size    : 20px;
+line-height  : 24px;
+
+color       : #F2F2F2;
+margin-right: 390px;
+cursor      : pointer;
+}
+.fix {
+    position: fixed;
+    z-index: 1000;
+}
+a {
+    color:black;
+    text-decoration:none
+    display: block;
+    webkit-transform: translateZ(0);
+
+    }
+.color_link {
+    color:#FEFEFE; 
+}
+.main_link {
+    color:#FFFFFF ;
+    font-weight   : 500;
+    font-size     : 18px;
+}
+a {
+    text-decoration: none;
+}
+
+
+
+
+
